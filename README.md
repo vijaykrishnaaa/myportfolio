@@ -1,6 +1,6 @@
 # Vijay Krishna Burra - Portfolio Website
+<img width="2535" height="1373" alt="portfolio" src="https://github.com/user-attachments/assets/f2ce8002-5e36-485e-957f-0c6197e75611" />
 
-![Portfolio Preview](https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop)
 
 A modern, responsive portfolio website showcasing my skills, projects, certifications, and professional background as a web developer.
 
