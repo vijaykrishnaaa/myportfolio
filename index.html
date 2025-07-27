@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vijay Krishna Burra - Web Developer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="portfolio.css">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+      <div class="home-bg"></div>
+      <div class="container">
+        <div class="home-grid">
+          <div class="home-content">
+            <h1><span>VIJAY KRISHNA BURRA</span></h1>
+            <p>
+              A self-taught web developer and student passionate about crafting
+              clean, responsive, and user-centric web experiences.
+            </p>
+            <div class="cta-buttons">
+              <a href="#skills" class="btn">View Skills</a>
+              <a href="vijaycv.docx" class="btn" id="resume-download"
+                >Download Resume</a
+              >
+            </div>
+          </div>
+          <div class="home-image">
+            <!-- Replace with your photo -->
+            <img src="vijayy.png.png" alt="Vijay Krishna Burra" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="section-title">
+          <h2>About Me</h2>
+        </div>
+        <div class="about-content">
+          <div class="about-text hidden">
+            <p>
+              I'm currently pursuing
+              <span>BTech at Amrita Vishwa Vidyapeetham (2023–2027)</span>. I'm
+              a self-taught full-stack web developer with a strong foundation in
+              front-end and back-end development, and an active learner always
+              exploring new tools and frameworks.
+            </p>
+            <p>
+              I'm confident in <span>HTML, CSS, JavaScript</span>, and modern
+              libraries like <span>React and Node.js</span>. My passion for web
+              development drives me to create efficient, scalable solutions with
+              clean code.
+            </p>
+            <div class="tech-list">
+              <span class="tech-item">HTML</span>
+              <span class="tech-item">CSS</span>
+              <span class="tech-item">JavaScript</span>
+              <span class="tech-item">ReactJS</span>
+              <span class="tech-item">Angular</span>
+              <span class="tech-item">NodeJS</span>
+              <span class="tech-item">Express</span>
+              <span class="tech-item">MongoDB</span>
+              <span class="tech-item">MySQL</span>
+            </div>
+          </div>
+          <div class="hidden-right">
+            <div class="section-title">
+              <h2>Education Timeline</h2>
+            </div>
+            <div class="timeline">
+              <div class="timeline-item">
+                <h3>Amrita Vishwa Vidyapeetham, Coimbatore</h3>
+                <p>2023 - 2027 (Continuing)</p>
+              </div>
+              <div class="timeline-item">
+                <h3>Fiitjee, Visakhapatnam</h3>
+                <p>2021 - 2023</p>
+              </div>
+              <div class="timeline-item">
+                <h3>Aditya Talent School, Kakinada</h3>
+                <p>2016 - 2021</p>
+              </div>
+              <div class="timeline-item">
+                <h3>Kendriya Vidyalaya, Visakhapatnam</h3>
+                <p>2011 - 2016</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Skills</h2>
+        </div>
+        <div class="skills-container">
+          <div class="skill-category hidden">
+            <h3>Technical Skills</h3>
+            <ul class="skill-list">
+              <li class="skill-item">HTML5</li>
+              <li class="skill-item">CSS3</li>
+              <li class="skill-item">JavaScript</li>
+              <li class="skill-item">ReactJS</li>
+              <li class="skill-item">Angular</li>
+              <li class="skill-item">Node.js</li>
+              <li class="skill-item">Express.js</li>
+              <li class="skill-item">MongoDB</li>
+              <li class="skill-item">MySQL</li>
+              <li class="skill-item">Git & GitHub</li>
+            </ul>
+          </div>
+
+          <div class="skill-category hidden-right">
+            <h3>Personal Skills</h3>
+            <ul class="skill-list">
+              <li class="skill-item">Problem Solving</li>
+              <li class="skill-item">Attention to Detail</li>
+              <li class="skill-item">Time Management</li>
+              <li class="skill-item">Effective Communication</li>
+              <li class="skill-item">Critical Thinking</li>
+              <li class="skill-item">Team Collaboration</li>
+              <li class="skill-item">Clean Code Practices</li>
+              <li class="skill-item">Emotional Intelligence</li>
+              <li class="skill-item">Strong Work Ethics</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Projects</h2>
+        </div>
+        <div class="projects-container">
+          <div class="project-card hidden-top">
+            <div class="project-image">
+              <img src="flight.jpg" alt="Flight Management System">
+            </div>
+            <div class="project-content">
+              <h3>Enhanced Flight Management System</h3>
+              <p>A sophisticated flight management solution using the Max-Flow algorithm to optimize flight routes, manage capacity, and reduce delays. The system intelligently allocates resources and calculates optimal paths for maximum efficiency.</p>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>Graph Theory</span>
+                <span>Algorithm Design</span>
+                <span>Data Structures</span>
+              </div>
+              <a href="https://github.com/vijaykrishnaaa/flightmanagementusingminmaxflow" class="project-link" target="_blank">
+                View on GitHub <i>&rarr;</i>
+              </a>
+            </div>
+          </div>
+          
+          <div class="project-card hidden-top" style="transition-delay: 0.2s">
+            <div class="project-image">
+              <img src="restaurant.jpg" alt="Restaurant Management System">
+            </div>
+            <div class="project-content">
+              <h3>Restaurant Management System</h3>
+              <p>A comprehensive solution for restaurant operations including table management, order processing, inventory tracking, and billing. Features include real-time updates, staff management, and sales analytics for better business decisions.</p>
+              <div class="project-tech">
+                <span>HTML/CSS</span>
+                <span>JavaScript</span>
+                <span>Node.js</span>
+                <span>MySQL</span>
+                <span>REST API</span>
+              </div>
+              <a href="https://github.com/vijaykrishnaaa/restaurantproj" class="project-link" target="_blank">
+                View on GitHub <i>&rarr;</i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+      <div class="container">
+        <div class="section-title">
+          <h2>My Certifications</h2>
+        </div>
+        <div class="certificates-container">
+          <div
+            class="certificate-item hidden-top"
+            data-title="Software Engineering Job Simulation"
+            data-desc="Goldman Sachs (Forage) - Oct 2024"
+          >
+            <div class="certificate-img">
+              <img src="goldmansachs.png" alt="Certification" />
+            </div>
+            <div class="certificate-info">
+              <h3>Software Engineering Job Simulation</h3>
+              <p>Goldman Sachs (Forage) - Oct 2024</p>
+            </div>
+          </div>
+
+          <div
+            class="certificate-item hidden-top"
+            data-title="Torch it up-AI Journey with PyTorch"
+            data-desc="Amrita/IETE - Mar 2025"
+            style="transition-delay: 0.2s"
+          >
+            <div class="certificate-img">
+              <img
+                src="B Vijay Krishna-CB.SC.U4CSE23112.jpg"
+                alt="Certification"
+              />
+            </div>
+            <div class="certificate-info">
+              <h3>Torch it up-AI Journey with PyTorch</h3>
+              <p>Amrita/IETE - Mar 2025</p>
+            </div>
+          </div>
+
+          <div
+            class="certificate-item hidden-top"
+            data-title="Automate the Boring Stuff with Python"
+            data-desc="Udemy - Mar 2025"
+            style="transition-delay: 0.2s"
+          >
+            <div class="certificate-img">
+              <img src="vijaypython.png" alt="Certification" />
+            </div>
+            <div class="certificate-info">
+              <h3>Automate the Boring Stuff with Python</h3>
+              <p>Udemy - Mar 2025</p>
+            </div>
+          </div>
+
+          <div
+            class="certificate-item hidden-top"
+            data-title="How To CSS"
+            data-desc="Codekaro - May 2025"
+            style="transition-delay: 0.2s"
+          >
+            <div class="certificate-img">
+              <img src="1000182459.jpg" alt="Certification" />
+            </div>
+            <div class="certificate-info">
+              <h3>How To CSS</h3>
+              <p>Codekaro - May 2025</p>
+            </div>
+          </div>
+
+          <div
+            class="certificate-item hidden-top"
+            data-title="IETE Workshop on Docker"
+            data-desc="Amrita/IETE - Dec 2023"
+            style="transition-delay: 0.2s"
+          >
+            <div class="certificate-img">
+              <img src="BURRA VIJAY KRISHNA .png" alt="Certification" />
+            </div>
+            <div class="certificate-info">
+              <h3>IETE Workshop on Docker</h3>
+              <p>Amrita/IETE - Dec 2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2>Get In Touch</h2>
+        </div>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item hidden">
+              <div class="contact-text">
+                <h3>Email</h3>
+                <a href="mailto:vijaykrishna7583@gmail.com"
+                  >vijaykrishna7583@gmail.com</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-item hidden" style="transition-delay: 0.2s">
+              <div class="contact-text">
+                <h3>LinkedIn</h3>
+                <a
+                  href="https://linkedin.com/in/vijay-krishna-burra-636774291/"
+                  target="_blank"
+                  >linkedin.com/in/vijay-krishna-burra</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-item hidden" style="transition-delay: 0.4s">
+              <div class="contact-text">
+                <h3>GitHub</h3>
+                <a href="https://github.com/vijaykrishnaaa" target="_blank"
+                  >github.com/vijaykrishnaaa</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-item hidden" style="transition-delay: 0.6s">
+              <div class="contact-text">
+                <h3>Languages</h3>
+                <p>English, Telugu, Hindi (fluent in speaking and reading)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form hidden-right">
+            <form id="message-form">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" required />
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" required></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <a href="#" class="footer-logo"
+            >VIJAY<span style="color: #ffffff">.</span></a
+          >
+          <div class="social-links">
+            <a
+              href="https://linkedin.com/in/vijay-krishna-burra-636774291/"
+              target="_blank"
+              class="social-link"
+              >LinkedIn</a
+            >
+            <a
+              href="https://github.com/vijaykrishnaaa"
+              target="_blank"
+              class="social-link"
+              >GitHub</a
+            >
+            <a href="mailto:vijaykrishna7583@gmail.com" class="social-link"
+              >Email</a
+            >
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2023 Vijay Krishna Burra. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <img id="expandedImg" src="" alt="Expanded Certificate" />
+        <div id="certificateTitle" class="certificate-title"></div>
+      </div>
+    </div>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
